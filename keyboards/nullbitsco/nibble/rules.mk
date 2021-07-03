@@ -27,5 +27,6 @@ CUSTOM_MATRIX = lite        # Lite custom matrix
 SRC += matrix.c \
        bitc_led.c \
        big_led.c \
-       remote_kb.c
+       remote_kb.c \
+       fast_hsv2rgb_8bit.c
 QUANTUM_LIB_SRC += uart.c
